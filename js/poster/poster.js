@@ -6,6 +6,23 @@ posterApp.controller('posterController1', [ '$scope', '$rootScope',
 			$scope.upload = function(line, row) {
 				console.log(line + "," + row);
 			}
+			$scope.upload2 = function() {
+				//设置点击确定按钮后,对已选择图片参数处理	
+				$('.chooseimg_model').live('shown.bs.model', function() {
+					var options = {
+						onChoose : function(ids, urls) {
+							$rootScope.items[$rootScope.index].cover = url;
+							$rootScope.items[$rootScope.index].imageId = ids;
+							console.log($rootScope.items[$rootScope.index]);
+						}
+					};
+					$('.chooseimg_model').imgChoose(options);
+				})
+				//点击按钮显示选片
+				$('.chooseimg_model').modal({
+					backdrop : false
+				});
+			}
 		} ]);
 posterApp.controller('posterController2', [ '$scope', '$rootScope',
 		function($scope, $rootScope) {
