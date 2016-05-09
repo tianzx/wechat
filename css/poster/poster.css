@@ -1,0 +1,293 @@
+.container .right-content {
+	overflow: hidden;
+	padding: 20px;
+}
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0;
+}
+
+.vue_edit {
+	margin-top: 10px;
+}
+
+.edit_block {
+	border: 1px solid #e7e7e7;
+	float: left;
+	width: 425px;
+}
+
+.page_choose::after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+.page_choose {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.box_active,.box:hover,.add_page:hover {
+	border-bottom: 1px solid #39be6d;
+	color: #39be6d;
+}
+
+.box,.add_page {
+	border-bottom: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	color: #cbcbcb;
+	float: left;
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	position: relative;
+	text-align: center;
+	top: 1px;
+	width: 70px;
+}
+
+.box,.add_page {
+	border-bottom: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	color: #cbcbcb;
+	float: left;
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	position: relative;
+	text-align: center;
+	top: 2px;
+	width: 70px;
+}
+
+.page_edit {
+	padding-top: 32px;
+	position: relative;
+}
+
+.save_data,.delete_data {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.edit_type {
+	font-weight: bolder;
+	left: 47px;
+	position: relative;
+	top: -5px;
+}
+
+.edit::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.edit {
+	line-height: 46px;
+	margin-bottom: 15px;
+	position: relative;
+	text-align: center;
+}
+
+.save_data,.delete_data {
+	margin-top: 25px;
+	text-align: center;
+}
+
+input[type="text"] {
+	margin-right: 5px;
+	padding: 4px;
+}
+
+.edit input {
+	border: 1px solid #e7e7eb;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 0;
+	padding-left: 5px;
+	width: 321px;
+}
+
+input,textarea,.uneditable-input {
+	margin-left: 0;
+}
+
+.edit textarea {
+	height: 120px;
+	line-height: 30px;
+	padding-left: 5px;
+	width: 321px;
+}
+
+textarea {
+	border: 1px solid #bbb;
+	padding: 4px;
+	resize: none;
+}
+
+.phone {
+	float: right;
+	height: 670px;
+	overflow: hidden;
+	position: relative;
+	width: 324px;
+}
+
+.phone_ac {
+	height: 38px;
+	line-height: 38px;
+	position: relative;
+	z-index: 2;
+}
+
+.a_preview {
+	float: right;
+}
+
+.a_preview {
+	color: #3eb968;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+.icon_phone {
+	position: relative;
+	top: -1px;
+}
+
+.section-drag {
+	background: #f0f0f0 none repeat scroll 0 0;
+	height: 568px;
+	overflow: hidden;
+	position: relative;
+	width: 320px;
+	z-index: 10;
+}
+
+.phone-page {
+	border: 2px solid #e7e7e7;
+}
+
+.full_drag,.section_drag {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.slide {
+	bottom: 0;
+	color: #cbc9d0;
+	font-size: 32px;
+	left: 50%;
+	position: absolute;
+	transform: translate3d(-50%, -1rem, 0px);
+}
+
+.iconcommon {
+	font-family: "common" !important;
+	font-style: normal;
+}
+.upload_image {
+    height: 155px;
+}
+.edit {
+    position: relative;
+    margin-bottom: 15px;
+    line-height: 46px;
+    text-align: center;
+}
+.edit_boxs {
+    margin-top: 10px;
+}
+.edit_type {
+    position: relative;
+    left: 47px;
+    top: -5px;
+    font-weight: bolder;
+}
+.notify_img {
+    width: 332px;
+    height: 30px;
+    margin: 0 auto -12px auto;
+    text-align: left;
+    font-weight: bolder;
+}
+.notify_image {
+    float: left;
+    position: relative;
+    left: 47px;
+    top: 20px;
+    width: 64px;
+    height: 76px;
+    overflow: hidden;
+}
+
+.uploadify {
+    top: 65px;
+    left: 54px;
+}
+.uploadify, .uploader {
+    position: relative;
+    float: left;
+    height: 30px;
+    border: 1px solid #0074C2;
+    line-height: 30px;
+    text-align: center;
+    color: #0074C2;
+    border-radius: 3px;
+}
+.notify_text {
+    float: left;
+    position: relative;
+    top: -10px;
+    left: -20px;
+    width: 332px;
+    margin: -16px auto 0 auto;
+    color: #8D8D8E;
+}
+
+.a_publish {
+    border: 1px solid #0074C2;
+    border-radius: 20px;
+    color: #0074C2;
+    display: inline-block;
+    left: 50%;
+    margin-left: -52px;
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    width: 105px;
+}
+.a_publish {
+    float: left;
+}
+
+.save_btn {
+    width: 80px;
+}
+.wx-btn-green {
+    background-color: #0074C2;
+    border-color: #0074C2;
+    color: #fff;
+}
+.wx-btn {
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: "Microsoft YaHei","Arial";
+    font-size: 14px;
+    height: 30px;
+    line-height: 28px;
+    margin-right: 10px;
+    padding: 0 20px;
+    text-decoration: none;
+}
