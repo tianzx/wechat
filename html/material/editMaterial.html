@@ -6,13 +6,16 @@
 		<title>图文消息</title>
 	</head>
 	<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" href="../../css/meterial/material.css" />
+	<link href="//cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.css" rel="stylesheet">
 	<script src="//cdn.bootcss.com/jquery/2.2.3/jquery.js"></script>
 	<script src="//cdn.bootcss.com/angular.js/1.5.5/angular.js"></script>
 	<script src="http://rubaxa.github.io/Sortable/Sortable.js"></script>
 	<script src="http://rubaxa.github.io/Sortable/ng-sortable.js"></script>
 	<script src="//cdn.bootcss.com/ckeditor/4.5.8/ckeditor.js"></script>
 	<script src="//cdn.bootcss.com/ckeditor/4.5.8/adapters/jquery.js"></script>
+	<script src="//cdn.bootcss.com/jquery-validate/1.15.0/jquery.validate.js"></script>
+	<link rel="stylesheet" href="../../css/meterial/material.css" />
+	<script type="text/javascript" src="../../js/material/bdp_comp.js"></script>
 	<body>
 		<div id="contentwrapper">
 			<div class="main_content">
@@ -122,6 +125,7 @@
 				jsonStr: "",
 				materialList: [],
 				submitFlag: false,
+				edit: 'add'
 			}
 			var material = new Material();
 			var materialApp = angular.module('materialApp', [], function() {})
