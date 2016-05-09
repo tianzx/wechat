@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>图文消息</title>
+	</head>
+	<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../css/meterial/material.css" />
+	<script src="//cdn.bootcss.com/jquery/2.2.3/jquery.js"></script>
+	<script src="//cdn.bootcss.com/angular.js/1.5.5/angular.js"></script>
+	<script src="http://rubaxa.github.io/Sortable/Sortable.js"></script>
+	<script src="http://rubaxa.github.io/Sortable/ng-sortable.js"></script>
+	<script src="//cdn.bootcss.com/ckeditor/4.5.8/ckeditor.js"></script>
+	<script src="//cdn.bootcss.com/ckeditor/4.5.8/adapters/jquery.js"></script>
+	<body>
+		<div id="contentwrapper">
+			<div class="main_content">
+				<div class="row-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<h3 class="heading"> 
+								图文消息 
+							</h3>
+						</div>
+					</div>
+					<div style="opacity: 1;" id="content-show" class="container-fluid main-content" ng-app="materialApp">
+						<div class="wsj-edit">
+							<div class="wsj-edit-main" id="wsj-edit-main">
+								<aside class="edit-show duotuwen ui-sortable" id="J_sortable">
+									<div ng-controller='div_add_appmsg'>
+										<div ng-repeat="item in items" ng-class='choseClass($index)' data-id={{item.id}} name="editshow" ng-show="true">
+											<section class="item">
+												<h1 class="appmsg-titleh4">{{item.title}}</h1>
+												<div class="pic">封面图片<img ng-src="{{item.cover}}" ng-model='item.cover' alt="" id="edit_img"></div>
+												<div class="hoverMenu">
+													<div class="menu-btns" data-id={{item.id}}>
+													</div>
+												</div>
+												<div class="hoverMenu">
+													<div class="menu-btns" data-id={{item.id}}>
+														<i id="edit{{item.id}}" class="fa fa-pencil " data-index="0" ng-click="edit($index,$event)"></i>
+														<i class="fa fa-trash-o " ng-click="delete($index,$event)" ng-hide="$first"></i>
+													</div>
+												</div>
+											</section>
+										</div>
+										<div id='addtuwen1' class='add-tuwen'>
+											<div class='itemBox'>
+												<div class='posBox'><span class='fa fa-plus ' ng-click="add()"></span></div>
+											</div>
+										</div>
+									</div>
+								</aside>
+								<div ng-controller="shift-div" ng-repeat="num in nums" ng-model="nums">
+									<div class='dy-div2'></div>
+								</div>
+								<div class="edit-content" ng-controller='edit-content'>
+									<form id="materialForm" name="materialForm" class="form_validation_reg" action="javascript:void(0)" novalidate>
+										<div class="explain" style="" data-index="0" id={{item.id}}>
+											<h2>标题：</h2>
+											<div class="">
+												<input required="" class=" span3" ng-model="item.title" class="form-control" name="title" ng-maxlength="64" placeholder="请输入标题（最多64位)">
+											</div>
+											<h2>作者：<span>( 选填 )</span></h2>
+											<div>
+												<input type="text" id="author" name="author" style="max-width: 680px;" class=" span3" ng-model="item.author" ng-maxlength="8" placeholder="请输入作者（最多8位）">
+											</div>
+											<h2>封面：<span id="pic">（大图片建议尺寸：900像素 * 500像素）</span></h2>
+											<div style="overflow: hidden;" id="img">
+												<div class="card-edit-con upload-show">
+													<img height="80px" width="100px" class="js_upload-show" ng-model="item.cover" ng-src="{{item.cover}}">
+													<!--<input  type="text" name="msgcover"  class=" span3"   value={{item.cover}} required="">-->
+													<!--<input required="" class=" span3" ng-model="item.cover" class="form-control" name="cover" ng-maxlength="64" placeholder="请输入标题（最多64位)"  value={{item.cover}}>-->
+													<input style="display:none" class=" span3" ng-model="item.cover" class="form-control" name="cover" value={{item.cover}}>
+												</div>
+												<div>
+													&nbsp
+												</div>
+												<div class="card-edit-con logo-upload btn btn-info">
+													<span class="logo-upload__button">上传图片</span>
+													<input ng-click="doUpload()" class="fade-input-file ">
+													</input>
+												</div>
+											</div>
+											<p style="margin:10px 0" class="titlePage">
+												<input type="checkbox" style="margin-top:0" ng-checked="item.show_cover" ng-model="item.show_cover" ng-init="item.show_cover = false">
+												<label class="frm_checkbox_label" for="showPic" style="margin:0"> 封面图片显示在正文中 </label>
+											</p>
+											<h2>摘要：<span>( 选填，该摘要只在发送图文消息为单条时显示 )</span></h2>
+											<div class="">
+												<textarea name="discription" id="discription" class="span12" ng-model="item.discription" ng-maxlength="120" placeholder="请输入摘要（最多120位）">{{item.discription}}</textarea>
+											</div>
+											<h2>正文：</h2>
+											<div class="">
+												<textarea ck-editor ng-model="item.content" cols="12" rows="12" required ng-maxlength="4096" placeholder="请输入正文（最多4096位）">{{item.content}}</textarea>
+												<input required="" style="display:none" ng-model="item.content" name="content" ng-maxlength="4096">
+											</div>
+											<h2>原文链接</h2>
+											<div class="">
+												<input type="url" id="link" name="link" class="span3" ng-model="item.link" value={{item.link}} maxlength="128">
+											</div>
+										</div>
+										<div ng-controller='submit'>
+											<div>
+												&nbsp
+											</div>
+											<button class="btn btn-info" type="button" id="publish" ng-click="publish()">发布</button>
+										</div>
+									</form>
+									<div class="edit-tipos"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function Material() {}
+			Material.prototype = {
+				jsonStr: "",
+				materialList: [],
+				submitFlag: false,
+			}
+			var material = new Material();
+			var materialApp = angular.module('materialApp', [], function() {})
+		</script>
+		<script src="../../js/material/editMaterial.js"></script>
+	</body>
+
+</html>
