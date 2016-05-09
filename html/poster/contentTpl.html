@@ -1,9 +1,28 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
-	<body>
-	</body>
-</html>
+		<script id="template_div_input" type="text/template">
+			<div class="edit-show-main" name="editshow">
+				<div class="edit"><input type="text" ng-model=new_val[<%= _data.line %>][<%= _data.row %>].content  value={{new_val[<%= _data.line %>][<%= _data.row %>].content}} name="new_val[<%= _data.line %>][<%= _data.row %>].content"  maxlength={{new_val[<%= _data.line %>][<%= _data.row %>].maxlength}}  required ></div>
+			</div>
+		</script>
+		<script id="template_div_textarea" type="text/template">
+			<div class="edit-show-main" name="editshow">
+				<div class="edit"><textarea type="text" ng-model=new_val[<%= _data.line %>][<%= _data.row %>].content  value={{new_val[<%= _data.line %>][<%= _data.row %>].content}} name="new_val[<%= _data.line %>][<%= _data.row %>].content" maxlength={{new_val[<%= _data.line %>][<%= _data.row %>].maxlength}} required >{{new_val[<%= _data.line %>][<%= _data.row %>].content}} </textarea></div>
+			</div>
+		</script>
+		<script id="template_div_image" type="text/template">
+			<section class="edit_boxs">
+                    <span class="edit_type"></span>
+						<section class="upload_image">
+							<div class="notify_img">图片
+							</div>
+							<div class="notify_image">
+								<img src="{{new_val[<%= _data.line %>][<%= _data.row %>].content}}" ng-model=new_val[<%= _data.line %>][<%= _data.row %>].content >
+							</div>
+								<div id="uploader" class="uploadify" style="height: 30px; width: 120px;">
+								<div id="uploader-button" class="" style="">
+									<a type="button" class="button" value="" ng-click="upload(<%= _data.line %>,<%= _data.row %>)">从图片库选择</a>
+								</div>
+							</div>
+							<div class="notify_text">建议图片尺寸：640*1136</div>
+						</section>
+            </section>
+		</script> 
