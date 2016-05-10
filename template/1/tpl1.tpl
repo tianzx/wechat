@@ -14,7 +14,7 @@
 								</div>
 							</section>
 							<div class="edit_wrapper">
-								<div style="width: 100%; height: 100%; background-image:url(http://localhost:8888/cms-vote/images_files/bg03.jpg); background-size: cover; background-position: 50% 50%;"></div>
+								<div style="width: 100%; height: 100%; background-image:url(/wx/img/bg03.jpg); background-size: cover; background-position: 50% 50%;"></div>
 								<ul class="edit_area weebly-content-area weebly-area-active" style="margin-top: 13px;">
 									<li class="comp-resize comp-rotate wsite-text" style="width: 320px; height: 38px; left: 0px; top: 317px; z-index: 1; transform: rotateZ(0deg);">
 										<div class="element-box ani resize" style="top: 317px; left: 0px; z-index: 1; line-height: 1; opacity: 1; color: rgb(255, 255, 255); border: 0px solid rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; border-radius: 0px; transform: none; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px; width: 320px; height: 38px;"
@@ -28,7 +28,7 @@
 									</li>
 									<li class="comp-resize comp-rotate wsite-image" style="width: 276px; height: 24px; left: 24px; top: 358px; z-index: 2;">
 										<div class="element-box ani resize" style="top: 358px; left: 24px; z-index: 2; width: 276px; height: 24px; transform: none;" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="1s">
-											<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/line01.png" style="width: 276px; height: 75px; margin-top: -25.5px; margin-left: 0px;"></div>
+											<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/line01.png" style="width: 276px; height: 75px; margin-top: -25.5px; margin-left: 0px;"></div>
 										</div>
 									</li>
 									<li class="comp-resize comp-rotate wsite-text" style="width: 320px; height: 38px; left: 0px; top: 376px; z-index: 3; transform: rotateZ(0deg);">

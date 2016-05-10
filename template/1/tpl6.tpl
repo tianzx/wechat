@@ -16,7 +16,7 @@
 									</div>
 								</section>
 								<div class="edit_wrapper">
-									<div style="width: 100%; height: 100%; background-image:url(http://localhost:8888/cms-vote/images_files/bg06.jpg); background-size: cover; background-position: 50% 50%;"></div>
+									<div style="width: 100%; height: 100%; background-image:url(/wx/img/bg06.jpg); background-size: cover; background-position: 50% 50%;"></div>
 									<ul class="edit_area weebly-content-area weebly-area-active" style="margin-top: 13px;">
 										<li class="comp-resize comp-rotate wsite-image" style="width: 299px; height: 151px; left: 10px; top: 162px; z-index: 1; transform: rotateZ(0deg);">
 											<div class="element-box ani resize" style="border-radius: 0px; width: 299px; height: 151px; padding-top: 0px; z-index: 1; color: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px; left: 10px; top: 162px; opacity: 1; border: 0px solid rgb(0, 0, 0); padding-bottom: 0px; line-height: 1; transform: none;"

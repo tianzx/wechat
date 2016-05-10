@@ -16,46 +16,46 @@
 									</div>
 								</section>
 								<div class="edit_wrapper">
-									<div style="width: 100%; height: 100%; background-image:url(http://localhost:8888/cms-vote/images_files/bg05.jpg); background-size: cover; background-position: 50% 50%;"></div>
+									<div style="width: 100%; height: 100%; background-image:url(/wx/img/bg05.jpg); background-size: cover; background-position: 50% 50%;"></div>
 									<ul class="edit_area weebly-content-area weebly-area-active" style="margin-top: 13px;">
 										<li class="comp-resize comp-rotate wsite-image" style="width: 90px; height: 90px; left: 107px; top: 128px; z-index: 1;">
 											<div class="element-box ani resize" style="z-index: 1; width: 90px; height: 90px; left: 107px; top: 128px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="1s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/line03.png" style="width: 90px; height: 90px; margin-top: 0px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/line03.png" style="width: 90px; height: 90px; margin-top: 0px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 50px; height: 22px; left: 82px; top: 206px; z-index: 2;">
 											<div class="element-box ani resize" style="z-index: 2; width: 50px; height: 22px; left: 82px; top: 206px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="1.2s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/dot.png" style="width: 50px; height: 50px; margin-top: -14px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/dot.png" style="width: 50px; height: 50px; margin-top: -14px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 50px; height: 26px; left: 86px; top: 29px; z-index: 3;">
 											<div class="element-box ani resize" style="z-index: 3; width: 50px; height: 26px; left: 86px; top: 29px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="0.4s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/dot.png" style="width: 50px; height: 50px; margin-top: -12px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/dot.png" style="width: 50px; height: 50px; margin-top: -12px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 85px; height: 85px; left: 113px; top: 45px; z-index: 4;">
 											<div class="element-box ani resize" style="z-index: 4; width: 85px; height: 85px; left: 113px; top: 45px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="0.6s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/line04.png" style="width: 85px; height: 85px; margin-top: 0px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/line04.png" style="width: 85px; height: 85px; margin-top: 0px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 100.88px; height: 97px; left: 107px; top: 218px; z-index: 5;">
 											<div class="element-box ani resize" style="z-index: 5; height: 100%; width: 100%; left: 107px; top: 218px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="1.4s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/line04.png" style="width: 101px; height: 101px; margin-top: -2px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/line04.png" style="width: 101px; height: 101px; margin-top: -2px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 56px; height: 22px; left: 179px; top: 307px; z-index: 6;">
 											<div class="element-box ani resize" style="z-index: 6; width: 56px; height: 22px; left: 179px; top: 307px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="1.6s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/dot.png" style="width: 56px; height: 56px; margin-top: -17px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/dot.png" style="width: 56px; height: 56px; margin-top: -17px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 106px; height: 106px; left: 104px; top: 316px; z-index: 7;">
 											<div class="element-box ani resize" style="width: 106px; height: 106px; z-index: 7; left: 104px; top: 316px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="1.8s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/line03.png" style="width: 106px; height: 106px; margin-top: 0px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/line03.png" style="width: 106px; height: 106px; margin-top: 0px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 61px; height: 26px; left: 74px; top: 408px; z-index: 8;">
 											<div class="element-box ani resize" style="width: 61px; height: 26px; z-index: 8; left: 74px; top: 408px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="2s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/dot.png" style="width: 61px; height: 61px; margin-top: -17.5px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/dot.png" style="width: 61px; height: 61px; margin-top: -17.5px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-text" style="width: 150px; height: 62px; left: 116px; top: 16px; z-index: 9;">
@@ -104,7 +104,7 @@
 										</li>
 										<li class="comp-resize comp-rotate wsite-image" style="width: 49px; height: 25px; left: 172px; top: 115px; z-index: 14;">
 											<div class="element-box ani resize" style="z-index: 14; width: 49px; height: 25px; left: 172px; top: 115px; transform: none;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="0.8s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/dot.png" style="width: 50px; height: 48px; margin-top: -11.5px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/dot.png" style="width: 50px; height: 48px; margin-top: -11.5px; margin-left: 0px;"></div>
 											</div>
 										</li>
 									</ul>

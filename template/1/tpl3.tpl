@@ -15,7 +15,7 @@
 									</div>
 								</section>
 								<div class="edit_wrapper">
-									<div style="width: 100%; height: 100%; background-image:url(http://localhost:8888/cms-vote/images_files/bg03.jpg); background-size: cover; background-position: 50% 50%;"></div>
+									<div style="width: 100%; height: 100%; background-image:url(/wx/img/bg03.jpg); background-size: cover; background-position: 50% 50%;"></div>
 									<ul class="edit_area weebly-content-area weebly-area-active" style="margin-top: 13px;">
 										<li class="comp-resize comp-rotate wsite-image" style="width: 320px; height: 272px; left: 0px; top: 167px; z-index: 1; transform: rotateZ(0deg);">
 											<div class="element-box ani resize" style="top: 167px; left: 0px; z-index: 1; width: 320px; height: 272px; opacity: 1; color: rgb(103, 103, 103); border: 0px solid rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; line-height: 1; border-radius: 0px; transform: none; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;"
@@ -47,7 +47,7 @@
 										<li class="comp-resize comp-rotate wsite-image" style="width: 50px; height: 50px; left: 143px; top: 248px; z-index: 4; transform: rotateZ(0deg);">
 											<div class="element-box ani resize" style="top: 248px; left: 143px; z-index: 4; width: 50px; height: 50px; opacity: 1; color: rgb(103, 103, 103); border: 0px solid rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; line-height: 1; border-radius: 34px; transform: none; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;background-color: rgba(255, 107, 107, 0.701961);"
 												swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="1s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/pos.png" style="width: 50px; height: 50px; margin-top: 0px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/pos.png" style="width: 50px; height: 50px; margin-top: 0px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-text" style="width: 171px; height: 39px; left: 74px; top: 298px; z-index: 5; transform: rotateZ(0deg);">
@@ -63,7 +63,7 @@
 										<li class="comp-resize comp-rotate wsite-image" style="width: 320px; height: 192px; left: 0px; top: 191px; z-index: 6; transform: rotateZ(0deg);">
 											<div class="element-box ani resize" style="top: 191px; left: 0px; z-index: 6; width: 320px; height: 192px; opacity: 1; color: rgb(103, 103, 103); border: 0px solid rgb(0, 0, 0); padding-bottom: 0px; padding-top: 0px; line-height: 1; border-radius: 0px; transform: none; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px; background-color: rgba(190, 11, 219, 0.0392157);"
 												swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="3s">
-												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/map02.jpg" style="width: 320px; height: 192px; margin-top: 0px; margin-left: 0px;"></div>
+												<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/map02.jpg" style="width: 320px; height: 192px; margin-top: 0px; margin-left: 0px;"></div>
 											</div>
 										</li>
 										<li class="comp-resize comp-rotate wsite-text" style="width: 320px; height: 62px; left: 0px; top: 383px; z-index: 7; transform: rotateZ(0deg);">

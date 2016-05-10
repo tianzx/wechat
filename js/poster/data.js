@@ -2,7 +2,7 @@ data = [
 		{
 			"section" : "0",
 			"type" : "image",
-			"content" : "http://localhost:8888/cms-vote/images_files/gslogo.png",
+			"content" : "/wx/img/gslogo.png",
 			"index" : 0
 		},
 		{
@@ -22,7 +22,7 @@ data = [
 		{
 			"section" : "1",
 			"type" : "image",
-			"content" : "http://localhost:8888/cms-vote/images_files/gslogo.png",
+			"content" : "/wx/img/gslogo.png",
 			"index" : 3
 		},
 		{
@@ -47,13 +47,13 @@ data = [
 		{
 			"section" : "2",
 			"type" : "image",
-			"content" : "http://localhost:8888/cms-vote/images_files/map02.jpg",
+			"content" : "/wx/img/map02.jpg",
 			"index" : 7
 		},
 		{
 			"section" : "3",
 			"type" : "image",
-			"content" : "http://localhost:8888/cms-vote/images_files/img01.jpg",
+			"content" : "/wx/img/img01.jpg",
 			"index" : 8
 		},
 		{
@@ -100,19 +100,19 @@ data = [
 		{	
 			"section" : "5",
 			"type" : "image",
-			"content" : "http://localhost:8888/cms-vote/images_files/img07.JPG",
+			"content" : "/wx/img/img07.JPG",
 			"index" : 15
 		},
 		{	
 			"section" : "5",
 			"type" : "image",
-			"content" : "http://localhost:8888/cms-vote/images_files/img05.JPG",
+			"content" : "/wx/img/img05.JPG",
 			"index" : 16
 		},
 		{	
 			"section" : "5",
 			"type" : "image",
-			"content" : "http://localhost:8888/cms-vote/images_files/img03.JPG",
+			"content" : "/wx/img/img03.JPG",
 			"index" : 17
 		},
 		{	

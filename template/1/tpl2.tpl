@@ -16,11 +16,11 @@
 										</div>
 									</section>
 									<div class="edit_wrapper">
-										<div style="width: 100%; height: 100%; background-image:url(http://localhost:8888/cms-vote/images_files/bg02.jpg); background-size: cover; background-position: 50% 50%;"></div>
+										<div style="width: 100%; height: 100%; background-image:url(/wx/img/bg02.jpg); background-size: cover; background-position: 50% 50%;"></div>
 										<ul class="edit_area weebly-content-area weebly-area-active" style="margin-top: 13px;">
 											<li class="comp-resize comp-rotate wsite-image" style="width: 132px; height: 132px; left: 156px; top: 16px; z-index: 1;">
 												<div class="element-box ani resize" style="z-index: 1; width: 132px; height: 132px; left: 156px; top: 16px; transform: none;" swiper-animate-effect="fadeInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.4s">
-													<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="http://localhost:8888/cms-vote/images_files/gslogo.png" style="width: 132px; height: 132px; margin-top: 0px; margin-left: 0px;"></div>
+													<div class="element-box-contents" style="width: 100%; height: 100%;"><img class="element comp_image editable-image" src="/wx/img/gslogo.png" style="width: 132px; height: 132px; margin-top: 0px; margin-left: 0px;"></div>
 												</div>
 											</li>
 											<li class="comp-resize comp-rotate wsite-image" style="width: 237px; height: 24px; left: 42px; top: 240px; z-index: 2;">
